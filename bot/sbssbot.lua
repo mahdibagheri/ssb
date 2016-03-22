@@ -255,25 +255,17 @@ function create_config( )
     "webshot",
     "welcome"
     },
-    sudo_users = {122774063},--Sudo users
+    sudo_users = {77750573,72916316},--Sudo users
     disabled_channels = {},
     moderation = {data = 'data/moderation.json'},
-    about_text = [[Sbss Bot V3
-    An Advanced Anti Spam Bot Forked On TeleSeed
-    
-    Develpoed By:
-    @Mr_Ah_S
-    
-    Special Thanks To:
-    Mehr Pouya
-    Arman
-    IM/-\N
-    Creed Is Dead
-    
-    Powered By @Sbss_Team
-    
-    #Open Source
-    https://github.com/SbssTeam/Sbss
+    about_text = [bot aqa_mp3
+    	با سرور قوی و قدرتمند
+    	آماده رساندن خدمات به شماست 
+    	سودو های اصلی بات 
+    	@mahdimp3 سودو و برنامه نویس بات 
+    	@mr_mh85 سودو و مشکلات فنی سرور
+    	@its_mpa سودو و کارای فنی بات
+    	www.telegram.me/aqa_mp3
 ]],
     help_text_realm = [[
 See Patterns In Github
@@ -351,7 +343,7 @@ __________________________
 —---------------------—
 نیاز نیست از '!' و '/' استفاده کنید*
 _______________________________
-Writed by SBSS Team
+
 ]]
   }
   serialize_to_file(config, './data/config.lua')
